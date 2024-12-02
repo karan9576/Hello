@@ -10,4 +10,8 @@ public class HelloWorldController {
     public String showHelloPage() {
         return "hello"; // This corresponds to a file named "hello.html" in `resources/templates`.
     }
+    @GetMapping("/hellokaran")
+    public String showHelloPage2() {
+        return "hellokaran"; // This corresponds to a file named "hello.html" in `resources/templates`.
+    }
 }
